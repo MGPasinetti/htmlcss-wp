@@ -6,7 +6,13 @@
 
 .container {
     width: 85%;
-    margin: 1rem auto;
+    margin: 0 auto 1rem;
+}
+
+header img {
+    height: 4em;
+    padding-right: 1em;
+    border-right: .08em solid #DEDEDE;
 }
 
 .clearfix::after {
@@ -16,11 +22,6 @@
 }
 
 /* DEBUG SECTION */
-.debug header {
-    background-color: #E579E6;
-    height: 4em;
-}
-
 .debug .banner {
     background-color: #E1D67A;
 }
