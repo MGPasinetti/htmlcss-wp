@@ -88,12 +88,6 @@ main img {
     text-overflow: ellipsis;
 } 
 
-/* DEBUG SECTION */
-.debug footer {
-    background-color: #8801FE;
-    height: 3em;
-}
-
 /* SECTION-MAIN */
 .clearfix::after {
     content: '';
@@ -157,3 +151,14 @@ h3 {
 }
 
 /* FOOTER */
+footer {
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+footer span {
+    color: #FF0000;
+    font-size: 20px;
+}
